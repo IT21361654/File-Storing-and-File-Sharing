@@ -9,7 +9,7 @@ Start Mongo DB server by opening the Desktop app downloded earlier for ease of u
 
 Must have installed nodemon to run this application. 
 
-After ensuring all are insatlled in the correct terminal, run code "npm update" to see if any files are missing.
+After ensuring all are insatlled in the correct terminal, run code "npm update" to see if any files are missing. (Note that the node modules were not uploaded due file size constraints).
 
 Type in "nodemon server.js" (server.js is out main file)
 
