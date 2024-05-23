@@ -15,5 +15,7 @@ Type in "nodemon server.js" (server.js is out main file)
 
 Then open your browser and enter the following address "http://localhost:3000/"
 
+other functionalities offered by the app are self explainotory.
+
 
 In case of any errors encountered, contact IT21361654@my.sliit.lk
