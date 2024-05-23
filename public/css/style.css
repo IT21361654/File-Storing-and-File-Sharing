@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Segoe";
+    src: url("../fonts/Segoe/Segoe\ UI.ttf");
+}
+
+@font-face {
+    font-family: "Segoe-Bold";
+    src: url("../fonts/Segoe/Segoe\ UI\ Bold.ttf");
+}
+
+body {
+    font-family: "Segoe";
+}
+
+#cta {
+    margin-top: 175px;
+    background-color: #004085;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    color: white;
+}
+#counterContainer .col-md-4 p,
+#counterContainer .col-md-4 h4 {
+    text-align: center;
+}
+#counterContainer .col-md-4 h4 {
+    color: #124265;
+    font-family: "Segoe-Bold";
+    font-size: 50px;
+}
+#counterContainer {
+    background-color: #ecf3fb;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
+#homeApp #features .card-body {
+    height: 200px;
+}
+#homeApp .card-header img {
+    width: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#homeApp .card-body h4 {
+    margin-bottom: 20px;
+}
+#homeApp h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Segoe-Bold;
+}
+#homeApp .row {
+    margin-top: 50px;
+}

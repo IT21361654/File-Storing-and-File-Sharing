@@ -1,0 +1,29 @@
+<%- include ("includes/header") %>
+
+<div id="homeApp" style="margin-bottom: 80px;"> 
+    <div class="container-fluid" id="cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>File Transfer Web App</h1>
+                    <a v-bind:href="mainURL + '/MyUploads'" target="_blank" class="btn btn-success" style="margin-top: 30px;">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const homeApp = Vue.createApp({
+        data() {
+            return {
+                mainURL: baseUrl,
+            }
+        }
+    });
+    homeApp.mount("#homeApp");
+</script>
+
+<%- include ("includes/footer") %>
