@@ -11,7 +11,8 @@ Must have installed nodemon to run this application.
 
 After ensuring all are insatlled in the correct terminal, run code "npm update" to see if any files are missing. (Note that the node modules were not uploaded due file size constraints).
 
-Type in "nodemon server.js" (server.js is out main file)
+Type in "nodemon server-fixed.js" (server.js is out main file, but after fixing the vulnerabilites found new js file has been added.)
+Note: the server-fixed.js requires many dependancies and requires installation of many node modules. 
 
 Then open your browser and enter the following address "http://localhost:3000/"
 
